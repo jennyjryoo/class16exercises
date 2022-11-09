@@ -17,6 +17,8 @@ public class EventCategory {
         this.id = id;
     }
 
+    public EventCategory() {}
+
     public int getId() {
         return id;
     }
