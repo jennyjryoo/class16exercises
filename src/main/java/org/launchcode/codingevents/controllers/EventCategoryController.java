@@ -32,7 +32,7 @@ public class EventCategoryController {
     @GetMapping("create")
     private String renderCreateEventCategoryForm(Model model) {
         model.addAttribute("title","Create Category");
-        model.addAttribute("eventCategory", new EventCategory());
+        model.addAttribute(new EventCategory());
         return "eventCategories/create";
     }
 
